@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoEmCamadas", "ProjetoEmCamadas\ProjetoEmCamadas.csproj", "{1E2B7179-27BB-4291-923C-EDBB250B0AA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CODE", "CODE", "{8F168A70-CDB3-4221-9EEB-A3262862F537}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{C1C34387-856A-455B-8804-97123ACBE508}"
+	ProjectSection(SolutionItems) = preProject
+		ProjetoEmCamadas\MedicamentoBLL.cs = ProjetoEmCamadas\MedicamentoBLL.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{445224AF-451D-41DA-99C9-0EBA61069CD2}"
+	ProjectSection(SolutionItems) = preProject
+		AcessoBancoDados.cs = AcessoBancoDados.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{3761FD7B-9708-4AFC-9EB2-0D975A44FFB1}"
+	ProjectSection(SolutionItems) = preProject
+		MedicamentoDTO.cs = MedicamentoDTO.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ui", "Ui", "{22A8B295-7FC5-4EE1-BC3F-18768B997675}"
+	ProjectSection(SolutionItems) = preProject
+		ProjetoEmCamadas\Form1.resx = ProjetoEmCamadas\Form1.resx
+		ProjetoEmCamadas\Frm_Medicamentos.cs = ProjetoEmCamadas\Frm_Medicamentos.cs
+		ProjetoEmCamadas\Frm_Medicamentos.Designer.cs = ProjetoEmCamadas\Frm_Medicamentos.Designer.cs
+		ProjetoEmCamadas\Frm_Medicamentos.resx = ProjetoEmCamadas\Frm_Medicamentos.resx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E2B7179-27BB-4291-923C-EDBB250B0AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E2B7179-27BB-4291-923C-EDBB250B0AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E2B7179-27BB-4291-923C-EDBB250B0AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E2B7179-27BB-4291-923C-EDBB250B0AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1C34387-856A-455B-8804-97123ACBE508} = {8F168A70-CDB3-4221-9EEB-A3262862F537}
+		{445224AF-451D-41DA-99C9-0EBA61069CD2} = {8F168A70-CDB3-4221-9EEB-A3262862F537}
+		{3761FD7B-9708-4AFC-9EB2-0D975A44FFB1} = {8F168A70-CDB3-4221-9EEB-A3262862F537}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CEC7A83-EC8B-4C03-94C9-915226E827F8}
+	EndGlobalSection
+EndGlobal
