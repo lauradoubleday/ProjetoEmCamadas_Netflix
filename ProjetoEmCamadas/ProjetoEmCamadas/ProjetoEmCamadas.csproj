@@ -46,18 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Frm_Medicamentos.cs">
+    <Compile Include="Frm_Netflix.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Medicamentos.Designer.cs">
-      <DependentUpon>Frm_Medicamentos.cs</DependentUpon>
+    <Compile Include="Frm_Netflix.Designer.cs">
+      <DependentUpon>Frm_Netflix.cs</DependentUpon>
     </Compile>
-    <Compile Include="MedicamentoBLL.cs" />
-    <Compile Include="MedicamentoDTO.cs" />
+    <Compile Include="NetflixBLL.cs" />
+    <Compile Include="NetflixBLL1.cs" />
+    <Compile Include="NetflixDTO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Frm_Medicamentos.resx">
-      <DependentUpon>Frm_Medicamentos.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_Netflix.resx">
+      <DependentUpon>Frm_Netflix.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CODE", "CODE", "{8F168A70-C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{C1C34387-856A-455B-8804-97123ACBE508}"
 	ProjectSection(SolutionItems) = preProject
-		ProjetoEmCamadas\MedicamentoBLL.cs = ProjetoEmCamadas\MedicamentoBLL.cs
+		ProjetoEmCamadas\NetflixBLL.cs = ProjetoEmCamadas\NetflixBLL.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{445224AF-451D-41DA-99C9-0EBA61069CD2}"
@@ -19,15 +19,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{445224AF-451
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{3761FD7B-9708-4AFC-9EB2-0D975A44FFB1}"
 	ProjectSection(SolutionItems) = preProject
-		MedicamentoDTO.cs = MedicamentoDTO.cs
+		NetflixDTO.cs = NetflixDTO.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ui", "Ui", "{22A8B295-7FC5-4EE1-BC3F-18768B997675}"
 	ProjectSection(SolutionItems) = preProject
 		ProjetoEmCamadas\Form1.resx = ProjetoEmCamadas\Form1.resx
-		ProjetoEmCamadas\Frm_Medicamentos.cs = ProjetoEmCamadas\Frm_Medicamentos.cs
-		ProjetoEmCamadas\Frm_Medicamentos.Designer.cs = ProjetoEmCamadas\Frm_Medicamentos.Designer.cs
-		ProjetoEmCamadas\Frm_Medicamentos.resx = ProjetoEmCamadas\Frm_Medicamentos.resx
+		ProjetoEmCamadas\Frm_Netflix.cs = ProjetoEmCamadas\Frm_Netflix.cs
+		ProjetoEmCamadas\Frm_Netflix.Designer.cs = ProjetoEmCamadas\Frm_Netflix.Designer.cs
+		ProjetoEmCamadas\Frm_Netflix.resx = ProjetoEmCamadas\Frm_Netflix.resx
 	EndProjectSection
 EndProject
 Global

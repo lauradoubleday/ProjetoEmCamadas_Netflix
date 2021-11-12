@@ -2,7 +2,7 @@
 using System;
 using System.Data;
 
-namespace Projeto3Camadas.Code.DAL
+namespace ProjetoEmCamadas.Code.DAL
 {
     class AcessoBancoDados
     {
@@ -26,14 +26,14 @@ namespace Projeto3Camadas.Code.DAL
             }
         }
 
-        public DataTable ExecutarConsulta(string sql)       //sql é uma string que deve conter uma instrução Select
+        public DataTable ExecutarConsulta(string sql)       
         {
             try
             {
                 Conectar();
                 MySqlDataAdapter dados = new MySqlDataAdapter(sql, conexao);
                 DataTable dt = new DataTable();
-                dados.Fill(dt);    //Preenchimento do objeto DataTable(dt) com os dados obtidos da execução do select
+                dados.Fill(dt);   
 
                 return dt;
             }
@@ -47,14 +47,14 @@ namespace Projeto3Camadas.Code.DAL
             }
         }
 
-        public void ExecutarComando(string sql)     //sql: instrução sql de INSERT, UPDATE ou DELETE
+        public void ExecutarComando(string sql)     
         {
             Conectar();
 
             try
             {
                 MySqlCommand comando = new MySqlCommand(sql, conexao);
-                comando.ExecuteNonQuery();      //Método responsável por executar a instrução sql
+                comando.ExecuteNonQuery();     
             }
             catch (MySqlException ex)
             {
@@ -62,7 +62,7 @@ namespace Projeto3Camadas.Code.DAL
             }
             finally
             {
-                conexao.Close();        //Importante para que o banco não fique vulnerável.
+                conexao.Close();        
             }
         }
     }
